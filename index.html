@@ -4,6 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Exemplo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -16,18 +66,20 @@
             <li><a href="#contato">Contato</a></li>
         </ul>
     </nav>
-    <section id="sobre">
-        <h2>Sobre Nós</h2>
-        <p>Esta é uma página de exemplo feita apenas com HTML.</p>
-    </section>
-    <section id="servicos">
-        <h2>Nossos Serviços</h2>
-        <p>Oferecemos diversos serviços para atender suas necessidades.</p>
-    </section>
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>Entre em contato conosco pelo e-mail: exemplo@email.com</p>
-    </section>
+    <div class="container">
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Esta é uma página de exemplo feita apenas com HTML e um pouco de estilo CSS.</p>
+        </section>
+        <section id="servicos">
+            <h2>Nossos Serviços</h2>
+            <p>Oferecemos diversos serviços para atender suas necessidades.</p>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco pelo e-mail: exemplo@email.com</p>
+        </section>
+    </div>
     <footer>
         <p>&copy; 2025 Página Exemplo. Todos os direitos reservados.</p>
     </footer>
